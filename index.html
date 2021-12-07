@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LESSON 5</title>
+</head>
+<body>
+
+<form action="action_page.php">
+    <input name="secret" value="123" type="hidden"/>
+    <input name="account" value="admin" type="text"><br>
+    Hobby:<br>
+    <lable><input name="hobby" value="travel" type="radio" checked/>Du lich</lable><br>
+    <lable><input name="hobby" value="shopping" type="radio" checked/>Mua sam</lable><br>
+    <input type="reset" value="reload"/>
+    <input type="button" value="bam vao day"><br>
+    <button type="button">
+        <img src="https://i.pinimg.com/736x/18/09/c0/1809c0e940bf260e7cfb6c8fe0600b09.jpg" width="100px"">
+    </button><br>
+
+    <!--day la cau truc textarea dung de hien thi truong nhap du lieu dai-->
+
+    <textarea cols="5" rows="5">This is very long text</textarea>
+
+    <!--Day la dropdown-->
+    <br><br>
+    <select name=""city>
+        <option value="HN">Ha Noi</option>
+        <option value="HP">Hai Phong</option>
+        <option value="DN">Da Nag</option>
+    </select>
+    <br><br>
+    <select name=""city multiple>
+        <option>Ha Noi</option>
+        <option>Hai Phong</option>
+        <option value="DN">Da Nag</option>
+    </select>
+
+    <form>
+        <input type="text" name="username" placeholder="username" required><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="range" name="score" id="score" value="50" min="0" max="100">
+        <form>
+            <input type="text" name="check"/>
+            <input type="text" name="check2"/>
+        </form>
+    </form>
+
+
+</form>
+</body>
+</html>
